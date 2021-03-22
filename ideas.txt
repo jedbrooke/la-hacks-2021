@@ -9,6 +9,7 @@ Base Functionality:
 Offline device stores passwords encrypted in flash. When plugged in, prompts for master password. Descrypts passwords, 
 and when prompted, types the password as if the device were a keyboard.
 GUI made with PyQt5
+RSA Encryption
 Necessary functions: sendMasterPassword(), setPassword(), getPassword()
 
 Fall back option:
