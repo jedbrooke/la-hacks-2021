@@ -1,4 +1,8 @@
-idk something with ML 
-youtube but better
-social media home page
-test
+Idea: The UAKey, to give you(U) A(A) grade encryption and protection in the form of a physical key(Key).
+Not (wink wink wink) intended to be a pun or a one-up of the popular yubikey.
+
+The UAKey is a device that connects to your PC or Laptop through USB and inputs encrypted passwords from the UAKey into password fields. 
+Having your passwords encrypted on a personal item can help you keep your passwords off the web and safe from hackers.
+More marketing sleeze and slag to really sell this thing.
+KeePassXC has browser integration, password input, storage, and encryption that we can use
+Expands upon the KeePassXC repository by allowing for the UAKey to store passwords in the UAKey
