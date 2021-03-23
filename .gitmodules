@@ -1,3 +1,6 @@
 [submodule "keepassxc"]
 	path = keepassxc
 	url = https://github.com/jedbrooke/keepassxc.git
+[submodule "html-tkinter-gui-engine"]
+	path = tkinter_engine
+	url = https://github.com/jedbrooke/html-tkinter-gui-engine
