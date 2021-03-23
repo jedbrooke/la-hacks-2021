@@ -12,6 +12,9 @@ GUI made with PyQt5
 RSA Encryption
 Necessary functions: sendMasterPassword(), setPassword(), getPassword()
 
+Name Ideas: SuperKey, m1key, uakey, onekey, keypass
+Logo Ideas: Lock as a basket with eggs, 
+
 Fall back option:
 KeePassXC has browser integration, password input, storage, and encryption that we can use
 Expands upon the KeePassXC repository by allowing for the UAKey to store passwords in the UAKey
