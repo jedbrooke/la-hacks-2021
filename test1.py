@@ -11,10 +11,7 @@ def calcChecksum(inData):
 
 def main():
 
-    print("hello world2")
     dev = usb.core.find(idVendor = 0x0403, idProduct = 0x6001)
-
-    print("hello world")
 
     HEADER = (204).to_bytes(1, byteorder='big')
     TAIL = (185).to_bytes(1, byteorder='big')
