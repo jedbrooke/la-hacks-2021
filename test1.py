@@ -1,7 +1,7 @@
 import usb.core
 import usb.util
 
-def calcChecksum(self, inData):
+def calcChecksum(inData):
     checksum = 0
     for inByte in inData:
         if type(inData) is list:
@@ -11,7 +11,13 @@ def calcChecksum(self, inData):
 
 def main():
 
+    print("hello world2")
     dev = usb.core.find(idVendor = 0x0403, idProduct = 0x6001)
+
+    print("hello world")
+
+    HEADER = (204).to_bytes(1, byteorder='big')
+    TAIL = (185).to_bytes(1, byteorder='big')
 
     if dev is None:
         raise ValueError('Device not found')
@@ -37,7 +43,7 @@ def main():
     message += payload
 
     message += TAIL
-    checksum = self.calcChecksum(payload)
+    checksum = calcChecksum(payload)
     message += checksum.to_bytes(1, byteorder='big')
     message += bytes("\r\n".encode('ascii'))
 
