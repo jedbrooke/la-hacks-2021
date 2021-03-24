@@ -1,5 +1,5 @@
 import os
-from tkinter_engine.gui_engine import Form, Window, TagUtility, Button, Field
+from gui_engine.gui_engine import Form, Window, TagUtility, Button, Field
 
 def main():
 	windows = {
